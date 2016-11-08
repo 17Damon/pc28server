@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "private": true,
+  "description": "A quick way to test",
+  "repository": "",
+  "version": "0.0.1",
+  "entry": {
+    "index": "./app/index.js"
+  },
+  "scripts": {
+    "test": "babel-node test.js",
+    "start": "babel-node src/server.js",
+    "build": "babel src/ --out-dir ./production"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "path": "^0.12.7"
+  }
+}

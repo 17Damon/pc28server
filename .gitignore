@@ -1,0 +1,7 @@
+/node_modules
+/.idea
+/src
+/DBA.txt
+/test.js
+/.babelrc
+/package.json
